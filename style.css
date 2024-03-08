@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #666666;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 48px;
+
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: lightcyan;
+    padding: 6px;
+    margin: 0 6px;
+}
+
+
+
+
+.grid-erase {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+.grid div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
